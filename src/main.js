@@ -61,7 +61,7 @@ async function onLoadMoreClick(event) {
   const height = gallery.firstElementChild.getBoundingClientRect().height;
   scrollBy({
     behavior: 'smooth',
-    top: height * 2 + 10,
+    top: height * 2,
   });
 }
 
